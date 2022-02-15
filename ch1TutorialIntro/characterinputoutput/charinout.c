@@ -6,7 +6,7 @@
 
 /* copy input to output: third version */
 
-main()
+int main()
 {
     int c;
 
@@ -14,5 +14,5 @@ main()
         putchar(c);
         /* EOF is -1 ?? printf("EOF %3d\n",EOF); */
     }
-
+    printf("does this print");
 }
