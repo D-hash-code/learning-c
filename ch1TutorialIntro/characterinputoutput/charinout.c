@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-/* copy input to output: first version */
+/* copy input to output: third version */
 
 main()
 {
@@ -12,6 +12,7 @@ main()
 
     while ((c = getchar()) != EOF) {
         putchar(c);
+        /* EOF is -1 ?? printf("EOF %3d\n",EOF); */
     }
 
 }
