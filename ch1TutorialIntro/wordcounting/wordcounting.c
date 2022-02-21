@@ -26,3 +26,10 @@ int main() {
 
     printf("Number of Words: %1ld \n", wc);
 }
+
+// Exercise 1.11
+// How would you test the word count program?
+    // run some inputs through the program and compare output against expected output
+    // include edge cases like empty strings and all space strings
+// What kinds of input are most likely to uncover bugs if there are any?
+    // empty inputs? does a number count as a word?
